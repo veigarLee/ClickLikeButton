@@ -1,0 +1,14 @@
+{
+"manifest_version": 2,
+"name": "ClickLikeButton",
+"version": "1.0",
+"description": "ClickLikeButtonPlugin",
+"content_scripts": [
+{
+"matches": ["https://www.douban.com/",
+  "https://www.douban.com/?p=*",
+  "https://www.douban.com/people/*/statuses*"],
+"js": ["js/ClickLikeButton.js"]
+}
+]
+}
